@@ -10,3 +10,13 @@ body {
 #root {
   min-height: 100svh;
 }
+
+@keyframes parpadeo {
+  0%,
+  100% {
+    opacity: 0.15;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}

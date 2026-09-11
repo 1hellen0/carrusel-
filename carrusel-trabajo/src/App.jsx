@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import CarouselViewer from './components/CarouselViewer.jsx'
 import AutomationControls from './components/AutomationControls.jsx'
+import StarBackground from './components/StarBackground.jsx'
 
 const API_URL = 'http://localhost:3001/carrusel'
 const INTERVALO_MS = 100
@@ -97,7 +98,9 @@ function App() {
   const hayItems = items.length > 0
 
   return (
-    <main className="flex min-h-svh flex-col items-center justify-center gap-8 bg-[#0b1020] px-4 py-12">
+    <div className="relative min-h-svh overflow-hidden">
+      <StarBackground />
+      <main className="relative z-10 flex min-h-svh flex-col items-center justify-center gap-8 px-4 py-12">
       <header className="text-center">
         <h1 className="text-3xl font-bold text-white sm:text-4xl">
           Datos curiosos del espacio
@@ -130,6 +133,7 @@ function App() {
         hayError={status === 'error'}
       />
     </main>
+    </div>
   )
 }
 

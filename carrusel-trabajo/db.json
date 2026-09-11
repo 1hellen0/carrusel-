@@ -1,0 +1,34 @@
+{
+  "carrusel": [
+    {
+      "id": 1,
+      "titulo": "Un día en Venus dura más que un año",
+      "descripcion": "Venus tarda 243 días terrestres en girar sobre su eje, pero solo 225 en orbitar el Sol. ¡Alí el día es más largo que el año!",
+      "etiqueta": "Planetas"
+    },
+    {
+      "id": 2,
+      "titulo": "Silencio absoluto en el espacio",
+      "descripcion": "El sonido necesita un medio para viajar y en el vacío no hay moléculas. En el espacio nadie puede oírte gritar.",
+      "etiqueta": "Física"
+    },
+    {
+      "id": 3,
+      "titulo": "Lluvia de diamantes en Neptuno",
+      "descripcion": "La presión extrema en el interior de Neptuno y Urano podría comprimir el carbono hasta formar diamantes que caen como lluvia.",
+      "etiqueta": "Datos raros"
+    },
+    {
+      "id": 4,
+      "titulo": "Un agujero negro supermasivo en el centro",
+      "descripcion": "Sagitario A*, el agujero negro en el corazón de la Vía Láctea, pesa como 4 millones de soles.",
+      "etiqueta": "Cosmos"
+    },
+    {
+      "id": 5,
+      "titulo": "Huellas que durarán millones de años",
+      "descripcion": "Las pisadas de las misiones Apolo en la Luna seguirán intactas millones de años: no hay viento ni lluvia que las borre.",
+      "etiqueta": "Exploración"
+    }
+  ]
+}

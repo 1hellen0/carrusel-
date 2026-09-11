@@ -1,0 +1,11 @@
+{
+  "name": "carrusel-raiz",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix carrusel-trabajo run dev",
+    "server": "npm --prefix carrusel-trabajo run server",
+    "build": "npm --prefix carrusel-trabajo run build",
+    "lint": "npm --prefix carrusel-trabajo run lint"
+  }
+}
